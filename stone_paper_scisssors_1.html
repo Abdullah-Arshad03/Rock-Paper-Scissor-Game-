@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+
+    <!-- fredoka font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <p id="Heading">Rock - PAPER - SCISSORS</p>
+    <p class="sub-heading">G.A.M.E</p>
+
+    <section class="main">
+      <div class="choices">
+        <p class="computer">
+          <b class="size"> Computer's Choice : </b
+          ><span id="computer-choice" >
+
+          </span>
+        </p>
+        <p class="user">
+          <b class="size">User's Choice : </b> <span id="users-choice"></span>
+        </p>
+        <p class="result computer">
+          <b class="size">Result : </b> <span id="result"></span>
+        </p>
+      </div>
+      <div class="buttons">
+
+        <button id="Rock">Stone</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+        
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
